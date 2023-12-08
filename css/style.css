@@ -33,22 +33,37 @@ box-sizing: border-box;
     max-width: 1440px;
     margin: 0 auto;
 }
+
+
+
+/* heder styles START */
+
+
+
 .header {
     background: #EDF2EC;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    display: inline-flex;
+    height: 134px;
+    padding: 42px 109px 42px 111px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 .header_wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding-top: 42px
 }
 .header_list {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 }
 .header_item {
   margin-right: 46px;
@@ -58,10 +73,51 @@ box-sizing: border-box;
 }
  .header_link {
   color: #010201;
-font-size: 16px;
-font-weight: 700;
-line-height: 50px;
+  width: 16px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
 /* 312.5% */
 text-decoration: none;
 }
+.header_logo {
+margin-right: 688px; /* Устанавливаем расстояние между логотипом и текстом */
+width: 58.128px;
+height: 17px;
+flex-shrink: 0;
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+/* style.css */
+
+.header_link.Home {
+color: #E06733;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 312.5% */
+}
+.header_link:hover, .header_link:focus, .header_link:active {
+opacity: .75;}
+
+
+
+/* heder styles END */
+
+
+/* Intro styles START */
+.intro {
+  height: 100vh;
+}
+
+
+
+
+/* Intro styles END */
 
