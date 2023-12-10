@@ -130,14 +130,46 @@ opacity: .75;}
 
 /* heder styles END */
 
+.main {
+  display: flex;
+width: 1440px;
+height: 532px;
+padding: 62px 109px 62.642px 109px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
 
-/* Intro styles START */
-.intro {
-  height: 100vh;
+.leaf-group {
+  display: flex;
+  justify-content: space-between;
+}
+.intro img {
+  margin-right: 10px;
 }
 
 
 
 
-/* Intro styles END */
+
+
+
+
+
+
+
+
+
+
+
+.custom-style-1 {
+  
+  width: 81.232px;
+height: 60.889px;
+transform: rotate(-143.828deg);
+flex-shrink: 0; 
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+filter: blur(4.5px);
+bor
+}
 
