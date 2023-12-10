@@ -21,7 +21,8 @@ box-sizing: border-box;
 } *, * ::before,* ::after {
     box-sizing: inherit;
 }
-.body {
+
+body {
   font-family: 'Inika';
   font-style: normal;
   font-size: 16px;
@@ -29,8 +30,9 @@ box-sizing: border-box;
   font-weight: normal;
   color: #636060;
 }
+
 .wrapper {
-    max-width: 1440px;
+    width: 1220px;
     margin: 0 auto;
 }
 
@@ -58,7 +60,6 @@ box-sizing: border-box;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 42px
 }
 .header_list {
   display: flex;
@@ -82,7 +83,7 @@ box-sizing: border-box;
 text-decoration: none;
 }
 .header_logo {
-margin-right: 688px; /* Устанавливаем расстояние между логотипом и текстом */
+
 width: 58.128px;
 height: 17px;
 flex-shrink: 0;
@@ -93,6 +94,25 @@ font-weight: 400;
 line-height: normal;
 
 }
+
+.header_logo-link{
+  display: block;
+  width: 79.2px ;
+  height: 21px;
+  position: relative;
+  top: -6px;
+}
+
+.header_logo-link img {
+  position: absolute;
+  top: 0;
+  left:0 ;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 /* style.css */
 
