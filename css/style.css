@@ -203,15 +203,3 @@ filter: blur(3.5px);
 
 
 
-
-.custom-style-1 {
-  
-  width: 81.232px;
-height: 60.889px;
-transform: rotate(-143.828deg);
-flex-shrink: 0; 
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-filter: blur(4.5px);
-bor
-}
-
