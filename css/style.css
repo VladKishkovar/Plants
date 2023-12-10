@@ -138,15 +138,57 @@ padding: 62px 109px 62.642px 109px;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
+background: #EDF2EC;
 }
+
 
 .leaf-group {
   display: flex;
   justify-content: space-between;
 }
-.intro img {
-  margin-right: 10px;
+
+
+.leaf-group .leaf-1 {
+  width: 81.232px;
+  height: 60.889px;
+  transform: rotate(-143.828deg);
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+filter: blur(4.5px);
 }
+.leaf-group .leaf-4 {
+  width: 80.332px;
+  height: 61.573px;
+  transform: rotate(128.917deg);
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+filter: blur(4.5px);
+}
+.leaf-group .leaf-5 {
+  width: 120.926px;
+height: 77.012px;
+transform: rotate(-163.433deg);
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+filter: blur(2px);
+}
+.leaf-group .leaf-2 {
+  width: 245.308px;
+height: 177.835px;
+transform: rotate(-7.429deg);
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+filter: blur(4.5px);
+}
+.leaf-group .leaf-3 {
+  width: 163.487px;
+height: 141.861px;
+transform: rotate(-59.526deg);
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+filter: blur(3.5px);
+}
+
 
 
 
