@@ -153,12 +153,12 @@ opacity: .75;}
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 62px 109px;
 }
 
 .main__container {
   width: 1222px;
   height: 407px;
-  padding: 62px 109px;
   display: flex;
   justify-content: space-between;
 }
@@ -196,10 +196,7 @@ line-height: 50px;
 }
 
 .main__text {
-  padding-right: 23px;
-  padding-top: 42px;
   width: 525.442px;
-  height: 105px;
   flex-shrink: 0;
   color: #636060;
   font-family:Inter;
@@ -210,13 +207,16 @@ line-height: 50px;
 }
 .learn-more-button {
   padding: 14px 27px 14px 27px;
-  box-sizing: border-box
+  box-sizing: border-box;
   width: 158px;
   height: 44px;
   flex-shrink: 0;
   border-radius: 10px;
   border:2px solid #E06733;
-  background: url('D:\\Palnts\\Plants\\img\\button\\button start.png') center center no-repeat;
+  transition: all 0.3s ease;
+}
+.learn-more-button:hover{
+  transform: scale(0.8);
 }
 
 button-text {
@@ -237,22 +237,68 @@ line-height: 20px; /* 125% */
 }
 
 
-main {
-  display: flex;
-width: 1440px;
-height: 666px;
-padding: 93px 109px 94px 109px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
+.welcome {
+  background-color: white;
+  display: flex ;
+  justify-content: center;
+}
+
+.welcome__container {
+ width: 1222px;
+ height: 479px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.welcome__content{
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.intro_title {
+color: #499A18;
+font-family: 'Inter', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.intro_title span {
+font-weight: bold; 
+color: #E06733;
+font-family: 'Inter', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.main__text2 {
+  width: 605px;
+height: 208px;
+color: #636060;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+
+
+.welcome__img{
+  width: 464px;
+  height: 479px;
 
 }
+
 .intro_2{
   
   width: 464px;
 height: 479px;
 flex-shrink: 0;
-background: url(D:\Palnts\Plants\img\t\houseplant.png), lightgray 50% / cover no-repeat;
 }
 .wrapper {
 }
