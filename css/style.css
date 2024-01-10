@@ -300,7 +300,6 @@ line-height: 30px; /* 150% */
 
 .service {
 
- max-width:1440px;
   justify-content: center;
   display: flex;
   padding: 40px 109px 121px 109px;
@@ -309,12 +308,11 @@ line-height: 30px; /* 150% */
 }
 
 .header-container {
-width: 1007px;
-height: 94px;
-display: flex;
+  height: 94px;
+  display: flex;
  justify-content: space-between;
  align-items: center;
- border-radius: 
+
 }
 
 .services_header {
@@ -328,11 +326,11 @@ display: flex;
 
 
 .header_list2 {
-  width: 559px;
-  height: 50px;
+  padding: 0;
   text-decoration: none;
   justify-content: center;
   display: flex;
+  font-size: 20px;
  
 
 }
@@ -341,6 +339,7 @@ display: flex;
 }
 
 .header__link {
+  color: #E06733;
   padding: 12px 40px 12px 40px;
   text-decoration: none;
   border-radius: 5px;
@@ -348,12 +347,16 @@ display: flex;
   margin: 38px;
 }
  
-
-.btn:hover {
-  background-color: #ffffff;
-  color: #3498db;
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1222px;
+  height: 955px;
 }
+.item {
 
+}
 
 
 
