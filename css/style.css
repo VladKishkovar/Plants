@@ -390,8 +390,8 @@ line-height: 30px; /* 150% */
    
   }
   .Price_wrapper {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   width: 1222px;
   height: 405px;
 
@@ -424,19 +424,13 @@ line-height: 30px; /* 150% */
     width: 452px;
     height: 103.004px;
   }
-  .button {
-    width: 98px;
-    height: 26px;
-  }
-  .btn_call {
-    width: 162px;
-    height: 50.002px;
-  }
+ 
+  
   .leaff {
     width: 152px;
     height: 174.992px;
   }
-  .highlight {
+.highlight {
 color: #499A18;
 font-family: Inter;
 font-size: 40px;
@@ -467,7 +461,7 @@ line-height: 50px;
   justify-content: end;
 }
 .btn_call {
-padding: 12px; 
+padding: 12px 33.96px 12px 30.04px;
 border-radius: 5px;
 border: 1px solid #E06733;
 color: #E06733;
@@ -478,6 +472,52 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.subtitle {
+  display: flex;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.custom-big-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+.custom-big-checkbox__checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  background: #EDF2EC;
+  border-radius: 5px;
+  
+  background-color: #fff; /* Цвет фона по умолчанию */
+}
+
+.custom-big-checkbox input[type="checkbox"]:checked + .custom-big-checkbox__checkbox {
+  background-color: #4CAF50; /* Цвет фона при выборе */
+}
+
+.labeltext {
+
+  margin /* Отступ между чекбоксом и текстом */
+}
+
+.clear::after {
+ 
+ 
+ 
+}
+
+
 
 
 .leaf-group {
