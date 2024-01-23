@@ -415,9 +415,8 @@ line-height: 30px; /* 150% */
   font-size: 40px;
   }
   .text_call {
-   
-    width: 452px;
-    height: 191.007px;
+   width: 452px;
+    
   }
   .text {
     justify-content: flex-end;
@@ -487,10 +486,9 @@ line-height: normal;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
+
 }
-
-
 
 .custom-big-checkbox__checkbox {
   width: 16px;
@@ -507,16 +505,30 @@ line-height: normal;
 }
 
 .labeltext {
-
-  margin /* Отступ между чекбоксом и текстом */
+margin-right: 50px;
+width: 100px;
+height: 18px;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 100% */
+ 
 }
+.leaves_grup {
+  display: flex;
+  justify-content: end;
+  height: 175px;
 
-.clear::after {
- 
- 
- 
 }
+.leaves {
+  background-color: blue;
+  width: 152px;
+  height: 174.992px;
 
+
+}
 
 
 
