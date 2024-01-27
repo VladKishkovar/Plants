@@ -355,6 +355,7 @@ line-height: 30px; /* 150% */
   flex-direction: column;
   align-items: flex-start;
   gap: 90px;
+  background: #EDF2EC;
   }
   .gallery {
     width: 1222px;
@@ -386,7 +387,11 @@ line-height: 30px; /* 150% */
     line-height: 20px; /* 125% */
   }
   .Price {
-   
+    display: flex;
+    padding: 40px 109px 115px 109px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
    
   }
   .Price_wrapper {
@@ -478,44 +483,10 @@ line-height: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
 }
 
-.custom-big-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 60px;
 
-}
 
-.custom-big-checkbox__checkbox {
-  width: 16px;
-  height: 16px;
-  border-radius: 20px;
-  background: #EDF2EC;
-  border-radius: 5px;
-  
-  background-color: #fff; /* Цвет фона по умолчанию */
-}
-
-.custom-big-checkbox input[type="checkbox"]:checked + .custom-big-checkbox__checkbox {
-  background-color: #4CAF50; /* Цвет фона при выборе */
-}
-
-.labeltext {
-margin-right: 50px;
-width: 100px;
-height: 18px;
-color: #000;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 20px; /* 100% */
- 
-}
 .leaves_grup {
   display: flex;
   justify-content: end;
@@ -526,10 +497,25 @@ line-height: 20px; /* 100% */
   background-color: blue;
   width: 152px;
   height: 174.992px;
+}
+.Contact {
+ width: 100vh;
+}
+.title {
 
+.text_contact {
+  text-align: center;
 
 }
+.title {
 
+}
+.contact_women {
+
+}
+.snare {
+
+}
 
 
 .leaf-group {
@@ -578,12 +564,6 @@ flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 filter: blur(3.5px);
 }
-
-
-
-
-
-
 
 
 
