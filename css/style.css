@@ -498,23 +498,44 @@ line-height: normal;
   width: 152px;
   height: 174.992px;
 }
+.contact_group {
+  display: flex;
+  justify-content: center;
+}
+
 .Contact {
- width: 100vh;
+  background: #EDF2EC;
+  width: 1440px;
+  height: 550px;
+ 
 }
 .title {
+}
 
 .text_contact {
-  text-align: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .title {
 
 }
 .contact_women {
-
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 496.986px;
+}
+.women{
+  position: absolute;
+  
 }
 .snare {
-
+  width: 450px;
+  height: 50px;
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
