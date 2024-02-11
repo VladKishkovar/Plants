@@ -56,8 +56,29 @@ body {
 
 
 /* heder styles START */
+.container {
+  max-width: 12000px;
+  margin: 0px auto;
+  padding: 0px 12px;
+}
 
+@media (max-width: 1230px) {
+  .container {
+    max-width: 970px;
+  }
+}
 
+@media (max-width: 960px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    max-width: none;
+  }
+}
 
 .header {
   background-color: #edf2ec;
