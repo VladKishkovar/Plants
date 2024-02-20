@@ -654,13 +654,12 @@ filter: blur(3.5px);
 }
 @media (max-width: 1439px) {
   .container {
-    width: 1000px;
+    wid
   }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .wrapper  {
     padding: 35px 50px;
-      
 }
 
 @media only screen and (min-width: 380px)  {
