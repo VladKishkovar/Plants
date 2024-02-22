@@ -60,6 +60,9 @@ body {
   justify-content: center;
 }
 .header_wrapper {
+  width: 1220px;
+  height: 50px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,6 +149,7 @@ opacity: .75;}
   width: 1222px;
   height: 407px;
   display: flex;
+  margin: auto;
   justify-content: space-between;
 }
 
@@ -228,8 +232,7 @@ line-height: 20px; /* 125% */
 }
 
 .welcome__container {
- width: 1222px;
- height: 479px;
+
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -646,24 +649,48 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 filter: blur(3.5px);
 }
 
-
-
-
 .container {
- width: 100%;
+  width: 100%;
 }
-@media (max-width: 1439px) {
-  .container {
-    wid
-  }
+
+
 
 @media only screen and (max-width: 768px) {
   .wrapper  {
     padding: 35px 50px;
 }
+.main__container {
+  display: flex;
+  
+}
+
+.main__container .main__content {
+  order: 1; /* Порядок вывода для маленьких экранов */
+}
+
+.main__container .intro {
+  order: 2; /* Порядок вывода для маленьких экранов */
+}
+.welcome__content {
+  order: -1; /* Поместить welcome__content наверху */
+}
+.welcome {
+  position: relative;
+  width: 768px;
+  height: 783px;
+}
+.welcome__content {
+  position: absolute;
+  
+ 
+ 
+}
+.welcome__img {
+  
+}
 
 @media only screen and (min-width: 380px)  {
- 
+
   .container {
     
   }
